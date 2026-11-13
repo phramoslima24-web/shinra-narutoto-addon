@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="shinranarutoto"
+version="1.0.0"
+displayName="Shinra Tensei - Narutoto Addon"
+description='''Adds a Rinnegan-gated Shinra Tensei repulsion ability to Narutoto for Minecraft 1.20.1 Forge.'''
+
+[[dependencies.shinranarutoto]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.shinranarutoto]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.shinranarutoto]]
+modId="narutoto"
+mandatory=true
+versionRange="[0.4.1,)"
+ordering="AFTER"
+side="BOTH"
